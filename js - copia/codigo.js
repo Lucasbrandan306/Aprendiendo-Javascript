@@ -26,7 +26,7 @@ for (var i = 1; i < 20 ; i++){
 }
 contenedor.appendChild(documentFragment);
 
-alert("Bienvenido señor marica");
+alert("Bienvenido ");
 
 let nombre = prompt("¿Cual es tu nombre y apellido? ");
  
@@ -39,9 +39,9 @@ let texto = `Sesión iniciada de: ${nombre}`
 	nombre1.innerHTML = texto;
 }else {
 
-	alert("No te registraste menso!");
+	alert("No te registraste !");
 	let nombre1 = document.querySelector(".giuli");
-  	let texto = `No inició Sesión el MENSO!`;
+  	let texto = `No inició Sesión!`;
 	nombre1.innerHTML = texto;
 }
 
